@@ -1,83 +1,100 @@
+<p align="center">
+  <img src="imagens/imagem_graficos1.png" alt="Painel de Análise Comercial" width="800">
+</p>
+<p align="center"><em>Painel de receita, ticket médio e performance de equipes</em></p>
+
 # 📊 Análise Comercial com Python, Pandas e Matplotlib
 
-Este projeto apresenta uma análise exploratória de dados comerciais com foco em vendas, clientes, equipes e desempenho de eventos.  
-As análises foram desenvolvidas em **Python**, utilizando **Pandas** para manipulação dos dados e **Matplotlib** para a criação das visualizações.
+Este projeto apresenta uma análise exploratória de dados comerciais utilizando **Python**, **Pandas** e **Matplotlib**, com foco em compreender o desempenho de vendas, padrões de receita e comportamento de clientes e equipes.
 
 ---
 
-## 🎯 Objetivo
-Explorar um conjunto de dados comerciais para identificar padrões de receita, desempenho por equipe, ticket médio e correlações entre variáveis de vendas.
+## 🧩 Estrutura do projeto
 
-O projeto tem como propósito demonstrar domínio de:
-- manipulação e filtragem de dados com **Pandas**
-- criação de gráficos personalizados com **Matplotlib**
-- análise e interpretação de métricas de negócio
-
----
-
-## 🧩 Estrutura das análises
-
-### 1️⃣ Distribuição e evolução da receita
-Avalia a progressão mensal do faturamento e a taxa de crescimento ao longo do tempo.
-
-### 2️⃣ Ticket médio por cliente e por pedido
-Mostra o valor médio das vendas, tanto por pedido quanto por cliente, com histogramas e linhas de tendência mensal.
-
-### 3️⃣ Receita por equipe e região
-Compara o desempenho entre equipes e regiões, destacando as áreas mais rentáveis.
-
-### 4️⃣ Painel exploratório de eventos e vendedores
-Apresenta múltiplas visões — modalidade, tipo de evento, receita média por vendedor e participação percentual.
-
-### 5️⃣ Relação entre quantidade e valor total
-Gráfico de dispersão que identifica padrões e correlações entre volume de vendas e faturamento.
+- `notebooks/` → análises e geração dos gráficos  
+- `dados/` → arquivos CSV utilizados na análise  
+- `imagens/` → imagens e gráficos exportados  
+- `README.md` → documentação do projeto  
 
 ---
 
-## ⚙️ Tecnologias utilizadas
-- **Python 3.11+**
-- **Pandas**
-- **Matplotlib**
-- **Jupyter Notebook / VS Code**
+## 🧠 Objetivo
+
+Explorar e visualizar dados de vendas com base em uma base comercial simulada, identificando tendências, sazonalidade e oportunidades de melhoria no desempenho comercial.
 
 ---
 
-## 📂 Estrutura do projeto
+## 📈 Principais análises e gráficos
 
-```
-analise_comercial_eventos/
-│
-├── dados/
-├── notebooks/
-├── imagens/
-├── src/
-├── requirements.txt
-└── README.md
-```
+### 1. Receita Mensal e Taxa de Crescimento
+
+<p align="center">
+  <img src="imagens/imagem_graficos1.png" alt="Gráfico 1 - Receita Mensal e Taxa de Crescimento" width="800">
+</p>
+<p align="center"><em>Visualização da evolução da receita e variação percentual mês a mês.</em></p>
+
+Análise focada na **evolução da receita confirmada** ao longo do tempo, destacando períodos de pico e queda na performance mensal.
 
 ---
 
-## 🚀 Como rodar
+### 2. Distribuição de Ticket Médio
 
-Crie o ambiente virtual e instale as dependências:
+<p align="center">
+  <img src="imagens/imagem_graficos2.png" alt="Gráfico 2 - Ticket Médio e Distribuição" width="800">
+</p>
+<p align="center"><em>Comportamento do ticket médio por pedido e por cliente.</em></p>
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate      # Windows
-source .venv/bin/activate   # Linux/Mac
-
-pip install -r requirements.txt
-```
+Permite identificar o **valor médio das vendas**, entender a dispersão de preços e analisar a consistência do faturamento por cliente.
 
 ---
 
-## 📈 Principais aprendizados
-- Organização de dados relacionais e aplicação de filtros condicionais.  
-- Criação de métricas personalizadas: ticket médio, taxa de crescimento, ranking de receita.  
-- Desenvolvimento de dashboards analíticos com múltiplas visualizações.  
-- Formatação visual e padronização de estilo para gráficos.
+### 3. Receita por Equipe e por Região
+
+<p align="center">
+  <img src="imagens/imagem_graficos3.png" alt="Gráfico 3 - Receita por Equipe e Região" width="800">
+</p>
+<p align="center"><em>Comparativo de desempenho entre equipes e regiões de atuação.</em></p>
+
+Avalia o impacto de cada equipe e região no total de receita, facilitando a análise de produtividade e segmentação de resultados comerciais.
 
 ---
 
-💡 **Autor:** Lucas — Estudante de Sistemas de Informação  
-📍 Projeto desenvolvido para aprimorar práticas de análise e visualização de dados com Python.
+### 4. Relação entre Quantidade e Valor Total
+
+<p align="center">
+  <img src="imagens/imagem_graficos4.png" alt="Gráfico 4 - Dispersão Valor x Quantidade" width="800">
+</p>
+<p align="center"><em>Relação entre quantidade de itens vendidos e valor total da venda.</em></p>
+
+Gráfico de dispersão que evidencia correlações entre **volume de vendas e faturamento**, destacando padrões e possíveis outliers.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Python  
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook  
+
+---
+
+## 🔍 Principais aprendizados
+
+- Manipulação e limpeza de dados com Pandas  
+- Criação de gráficos customizados com Matplotlib  
+- Uso de métricas comerciais (ticket médio, receita mensal, crescimento percentual)  
+- Análise exploratória e comparativa entre dimensões de negócio  
+
+---
+
+## 👤 Autor
+
+**Lucas Borges**  
+Estudante de Sistemas de Informação • Foco em Análise de Dados e Desenvolvimento em Python  
+[LinkedIn](https://www.linkedin.com/in/lucas-borges21)  
+[GitHub](https://github.com/LucasBorges21)
+
+---
+
+<p align="center"><em>Projeto desenvolvido para fins de aprendizado e demonstração de portfólio em Análise de Dados.</em></p>
